@@ -12,7 +12,7 @@ import os
 import signal
 import sys
 
-VERSION = "A"
+VERSION = "B"
 PID = os.getpid()
 
 print(f"STARTUP version={VERSION} pid={PID}", flush=True)
